@@ -1,206 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Good Morning Pinki ❤️</title>
-
-<link rel="stylesheet" href="style.css">
+<title>For Pinki ❤️</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Sacramento&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <audio autoplay loop>
-  <source src="music.mp3" type="audio/mpeg">
-  </audio>
 
-<div id="hearts"></div>
+<div class="overlay"></div>
 
-<!-- Welcome Screen -->
+<div class="container">
 
-<section id="welcome">
+    <h2 class="greeting">Good Morning, Baby 🌙</h2>
 
-<h1 class="hello">
-Good Morning ☀️
-</h1>
+    <p class="hint">Tap the letter...</p>
 
-<h2 class="name">
-Pinki ❤️
-</h2>
+    <div class="envelope" id="envelope">
 
-<p class="subtitle">
+        <div class="back"></div>
+
+        <div class="letter">
+
+            <h1>Dear Pinki ❤️</h1>
+
+            <p>
+
 Today is your day.
-</p>
 
-<button id="startBtn">
-Open Your Surprise 💌
-</button>
+<br><br>
 
-</section>
+Take a deep breath.
 
-<!-- Letter -->
+<br>
 
-<section id="letter" class="hidden">
+Smile. 😊
 
-<h1>
-For My Baby ❤️
-</h1>
+<br>
 
-<div id="typewriter"></div>
+Believe in yourself.
 
-<button id="nextBtn">
-One More Surprise ✨
-</button>
+<br><br>
 
-</section>
+<b>Aap kr loge.</b>
 
-<!-- Countdown -->
+<br><br>
 
-<section id="countdownSection" class="hidden">
+I'm already proud of you.
 
-<h1>
-Your Exam Begins In
-</h1>
+<br><br>
 
-<div id="countdown">
+Love,
 
-<div>
-<span id="hours">00</span>
-<p>Hours</p>
-</div>
+<br>
 
-<div>
-<span id="minutes">00</span>
-<p>Minutes</p>
-</div>
+<b>Ado ❤️</b>
 
-<div>
-<span id="seconds">00</span>
-<p>Seconds</p>
-</div>
+            </p>
+
+        </div>
+
+        <div class="front"></div>
+
+        <div class="flap"></div>
+
+    </div>
+
+    <button id="nextBtn">All the Best 🌸</button>
 
 </div>
 
-<p class="quote">
+<div class="final" id="final">
 
-Remember...
-
-"Aap kr loge ❤️"
-
-</p>
-
-<button id="memoryBtn">
-
-Tap Here Baby 💕
-
-</button>
-
-</section>
-
-<!-- Surprise -->
-
-<section id="memorySection" class="hidden">
-
-<h1>
-
-Something I Wanted To Tell You...
-
-</h1>
-
-<div class="card">
+<h1>✨ All The Best, Pinki ❤️</h1>
 
 <p>
 
-Pichhle 2.5 saal mein maine tumhe bahut closely dekha hai.
+Go and take one more step towards becoming an amazing
 
-Tum kitni sincere ho.
+<b>UI/UX Designer.</b>
 
-Kitni pyaari ho.
+<br><br>
 
-Aur sabse zyada...
+I'll be waiting to hear,
 
-Tumhari smile ❤️
-
-Jab tum smile karti ho na...
-
-Mera din ban jaata hai.
+"Paper accha gaya." 😊
 
 </p>
+
+<h2>❤️ I Love You ❤️</h2>
+
+<p>- Your Ado</p>
 
 </div>
-
-<button id="finalBtn">
-
-Final Message 🌸
-
-</button>
-
-</section>
-
-<!-- Final -->
-
-<section id="finalSection" class="hidden">
-
-<h1>
-
-I Believe In You 💖
-
-</h1>
-
-<p>
-
-Exam sirf tumhari knowledge check karega.
-
-Tumhari value nahi.
-
-Chahe result kuch bhi ho...
-
-Meri Pinki hamesha best rahegi.
-
-Bas smile karna 😊
-
-Aur confidence ke saath paper dena.
-
-Main yahin hoon.
-
-Har waqt.
-
-Har situation mein.
-
-Tumhare saath.
-
-</p>
-
-<h2>
-
-I Love You ❤️
-
-</h2>
-
-<h3>
-
-— Aditya (Ado)
-
-</h3>
-
-<button id="confettiBtn">
-
-I'm Ready 🌸
-
-</button>
-
-</section>
-
-<canvas id="canvas"></canvas>
-
-<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
 <script src="script.js"></script>
 
