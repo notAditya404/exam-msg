@@ -1,11 +1,10 @@
 const envelope = document.getElementById("envelope");
-const nextBtn = document.getElementById("nextBtn");
-const final = document.getElementById("final");
+const next = document.getElementById("next");
+const final = document.querySelector(".final");
 const container = document.querySelector(".container");
 
 let opened = false;
 
-// Open the envelope
 envelope.addEventListener("click", () => {
     if (opened) return;
 
@@ -13,8 +12,7 @@ envelope.addEventListener("click", () => {
     document.body.classList.add("open");
 });
 
-// Go to final message
-nextBtn.addEventListener("click", () => {
+next.addEventListener("click", () => {
     container.style.display = "none";
     final.style.display = "flex";
 });
